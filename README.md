@@ -27,5 +27,7 @@
 <ol>
   <li>Add a <code>plotly express scatter map_box</code> specifically for India.</li>
   <li>Add more visualizations for more specific data.</li>
-  <li>Deploy the webapp using <code>Heroku</code></li>
+  <li>Deploy the webapp using <code>Heroku</code>.</li>
+  <li>Work on the <code>UI</code> of The Covid Info Store.</li>
+  <li>Add a dynamic addition of curated articles for everyone to read on COVID-19 from official sources.</li>
 </ol>
