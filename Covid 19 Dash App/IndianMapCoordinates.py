@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
+# I tried to integrate a separate geo plot for India but ran out of time :/
 coords = {"Andaman and Nicobar Islands": [11.7400867, 92.6586401],
           "Andhra Pradesh": [15.9129, 79.7400],
           "Arunachal Pradesh": [28.0000, 95.0000],
