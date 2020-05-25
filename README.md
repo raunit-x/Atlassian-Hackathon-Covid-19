@@ -3,6 +3,7 @@
 <img src = '/Covid 19 Dash App/Images/Screenshot 2020-05-25 at 12.04.18 PM.png' width = 900>
 <img src = '/Covid 19 Dash App/Images/Screenshot 2020-05-25 at 12.04.31 PM.png' width = 900>
 <img src = '/Covid 19 Dash App/Images/Screenshot 2020-05-25 at 12.04.57 PM.png' width = 900>
+<img src = '/Covid 19 Dash App/Images/Screenshot 2020-05-25 at 12.05.11 PM.png'width = 900>
 <ul>
   <li> A <a href="https://plotly.com/dash/">Dash</a> webapp with all the plots rendered using <a href="https://plotly.com/">plotly</a>.</li>
   <li>The data is fetched using <code>pandas</code> from the <a href="https://github.com/CSSEGISandData/COVID-19">John Hopkins Universtiy Github Repo</a> which is updated daily.</li>
