@@ -21,6 +21,13 @@
   <li> It updates the user directly on Slack on the changes in the COVID-19 cases in India.</li>
   <li>Using <code>BeautifulSoup</code> the data is directly scraped from the official <a href="https://www.mohfw.gov.in/">Indian Government Data</a></li>
   <li> Any changes in the number of cases is reported along with the same for all States/UT</li>
+  <li> To add this to your own slack:
+    <ol>
+      <li>Configure your custom <a href = "https://api.slack.com/start">slack app</a> to a specific channel where you want the upates.</li>
+      <li> Add your own <a href = "https://api.slack.com/messaging/webhooks">webhook</a> url in the code.</li>
+    </ol>
+    </li>
+
 </ul>
 
 # TODO
