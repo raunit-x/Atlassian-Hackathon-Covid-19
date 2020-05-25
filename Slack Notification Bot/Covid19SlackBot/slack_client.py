@@ -8,7 +8,9 @@ HEADERS = {
 }
 
 
-def slacker(webhook_url='https://hooks.slack.com/services/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'):
+def slacker():
+    # I have saved my slack webhook in an environment variable called SLACK_WEBHOOK
+    webhook_url = os.environ.get("SLACK_WEBHOOK")
     def slack_it(msg):
         payload = {'text': msg}
         return requests.post(webhook_url, headers=HEADERS, data=json.dumps(payload))
