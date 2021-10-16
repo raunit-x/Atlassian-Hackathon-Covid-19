@@ -9,7 +9,6 @@ HEADERS = {
 
 
 def slacker():
-    # I have saved my slack webhook in an environment variable called SLACK_WEBHOOK
     webhook_url = os.environ.get("SLACK_WEBHOOK")
     def slack_it(msg):
         payload = {'text': msg}
